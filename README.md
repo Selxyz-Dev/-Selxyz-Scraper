@@ -1,16 +1,16 @@
-### @selxyz/scraper
-- Selxyz/scraper Adalah Sebuah Module Yang Di Gunakan Untuk Mendapatkan Berbagai Informasi Dari Berbagai Website.
+### @selxyz/youtube-scraper
+- @selxyz/youtube-scraper adalah sebuah module yang menawarkan Untuk bisa mendownload video youtube. 
 
 # Install Module
 ```bash
-$ npm install @selxyz/scraper
+$ npm install @selxyz/youtube-scraper
 ```
 
 - Penggunaan Module
 ```js
 (async () => {
-const { cnn } = require('@selxyz/scraper')
-const data = await cnn()
+const { youtubedl } = require('@selxyz/youtube-scraper')
+const data = await youtubedl('https://youtu.be/Di6ovKClY00?si=VzoNBLd1oFXA6Xfv')
 console.log(data)
 })()
 ```
